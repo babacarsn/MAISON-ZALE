@@ -1,4 +1,5 @@
-const phone = "221785417900";
+const phone = "221710474235";
+
 
 const products = [
     {n:"Chanel N°5", c:"femme", p:"45 000", i:"https://images.unsplash.com/photo-1541643600914-78b084683601", d:"Élégance intemporelle", b:"Best Seller"},
