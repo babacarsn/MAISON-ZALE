@@ -169,6 +169,46 @@
   <i class="fab fa-whatsapp"></i>
 </a>
 
+<!-- MODAL FORMULAIRE DE COMMANDE -->
+<div id="orderModal" class="order-modal-overlay">
+  <div class="order-modal">
+    <button class="order-modal-close" onclick="closeOrderModal()">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="order-modal-header">
+      <div class="order-modal-icon"><i class="fas fa-box-open"></i></div>
+      <h2>Finaliser la commande</h2>
+      <p>Renseignez vos informations pour la livraison</p>
+    </div>
+    <div class="order-modal-body">
+      <div class="order-form-group">
+        <label for="orderPrenom"><i class="fas fa-user"></i> Prénom</label>
+        <input type="text" id="orderPrenom" placeholder="Votre prénom" autocomplete="given-name">
+      </div>
+      <div class="order-form-group">
+        <label for="orderNom"><i class="fas fa-user"></i> Nom</label>
+        <input type="text" id="orderNom" placeholder="Votre nom de famille" autocomplete="family-name">
+      </div>
+      <div class="order-form-group">
+        <label for="orderTel"><i class="fas fa-phone"></i> Numéro de téléphone</label>
+        <input type="tel" id="orderTel" placeholder="+221 7X XXX XX XX" autocomplete="tel">
+      </div>
+      <div class="order-form-group">
+        <label for="orderAdresse"><i class="fas fa-map-marker-alt"></i> Adresse de livraison</label>
+        <textarea id="orderAdresse" placeholder="Quartier, rue, point de repère..." rows="3"></textarea>
+      </div>
+      <div id="orderFormError" class="order-form-error" style="display:none;">
+        <i class="fas fa-exclamation-circle"></i> Veuillez remplir tous les champs.
+      </div>
+    </div>
+    <div class="order-modal-footer">
+      <button class="btn-confirm-order" onclick="confirmOrderAndWhatsApp()">
+        <i class="fab fa-whatsapp"></i> Confirmer et envoyer sur WhatsApp
+      </button>
+    </div>
+  </div>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>

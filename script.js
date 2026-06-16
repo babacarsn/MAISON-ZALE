@@ -224,6 +224,54 @@ function updateCartUI() {
 
 function orderOnWhatsApp() {
   if (cart.length === 0) return;
+  // Ouvre le formulaire de livraison avant WhatsApp
+  openOrderModal();
+}
+
+function openOrderModal() {
+  const modal = document.getElementById('orderModal');
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+  // Reset errors
+  document.getElementById('orderFormError').style.display = 'none';
+  ['orderPrenom','orderNom','orderTel','orderAdresse'].forEach(id => {
+    document.getElementById(id).classList.remove('error');
+  });
+}
+
+function closeOrderModal() {
+  document.getElementById('orderModal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+// Fermer si clic sur l'overlay
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('orderModal').addEventListener('click', function(e) {
+    if (e.target === this) closeOrderModal();
+  });
+});
+
+function confirmOrderAndWhatsApp() {
+  const prenom  = document.getElementById('orderPrenom').value.trim();
+  const nom     = document.getElementById('orderNom').value.trim();
+  const tel     = document.getElementById('orderTel').value.trim();
+  const adresse = document.getElementById('orderAdresse').value.trim();
+
+  // Validation
+  let hasError = false;
+  [['orderPrenom', prenom], ['orderNom', nom], ['orderTel', tel], ['orderAdresse', adresse]].forEach(([id, val]) => {
+    const el = document.getElementById(id);
+    if (!val) { el.classList.add('error'); hasError = true; }
+    else el.classList.remove('error');
+  });
+
+  if (hasError) {
+    document.getElementById('orderFormError').style.display = 'flex';
+    return;
+  }
+  document.getElementById('orderFormError').style.display = 'none';
+
+  // Construction du message WhatsApp
   let lines = cart.map(item => {
     const unitPrice = parseInt(item.p.replace(/\s/g,'').replace(',',''));
     const total = unitPrice * item.qty;
@@ -235,7 +283,9 @@ function orderOnWhatsApp() {
   }, 0);
 
   const msg = encodeURIComponent(
-    `Bonjour Maison Zale 🌹\n\nJe souhaite commander :\n\n${lines}\n\n💰 *Total : ${total.toLocaleString('fr-FR')} FCFA*\n\nMerci !`
+    `Bonjour Maison Zale 🌹\n\nNom : *${prenom} ${nom}*\n📞 Téléphone : *${tel}*\n📍 Adresse : *${adresse}*\n\n🛍️ Commande :\n\n${lines}\n\n💰 *Total : ${total.toLocaleString('fr-FR')} FCFA*\n\nMerci !`
   );
+
+  closeOrderModal();
   window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
 }
