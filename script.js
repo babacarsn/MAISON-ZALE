@@ -15,6 +15,14 @@ const phone = "221710474235";
 //    Taraf arabian oud 150000   Unisexe                        tarafArabianOud.jpeg
 
 
+// Africain gold Maison calisto Unisexe 90000 Africain_gold.jpeg
+
+// Suculent caramel 25000 Unisexe  Suculent_caramel.jpeg
+
+//    Eclair latafa Unisexe  23000  Eclair_latafa.jpeg
+//  Oud envoutant  homme , 23000 , Oud_envoutant .jpeg 
+
+   
 
 
 
@@ -38,10 +46,10 @@ const products = [
 {n:"Coeur blanc maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Coeur_blanc_maison_massimo .jpeg", d:"Maison Massimo", b:"Collection Prestige"},
 {n:"Exotic", c:"unisexe", p:"16 000", i:"Prouduits/Exotic.jpeg", d:"Exotic Perfumes", b:"Collection Signature"},
 {n:"Taraf arabian oud", c:"unisexe", p:"150 000", i:"Prouduits/tarafArabianOud.jpeg", d:"Arabian Oud", b:"Collection Royale"},,
-    {n:"1 Million", c:"homme", p:"36 000", i:"https://images.unsplash.com/photo-1585386959984-a4155224a1ad", d:"Audacieux", b:""},
-    {n:"Armani Si", c:"femme", p:"41 000", i:"https://images.unsplash.com/photo-1528740561666-dc2479dc08ab", d:"Élégant", b:""},
-    {n:"Le Male", c:"homme", p:"34 000", i:"https://i.pinimg.com/736x/ee/47/38/ee4738e5ab272d04509470fb1c3c6fef.jpg", d:"Classique", b:""},
-    {n:"Black Orchid", c:"unisexe", p:"55 000", i:"https://images.unsplash.com/photo-1547887537-6158d64c35b3", d:"Mystérieux", b:"Luxe"},
+    {n:"Africain gold ", c:"unisexe", p:"90 000", i:"Prouduits/Africain_gold.jpeg", d:"Audacieux", b:""},
+    {n:"Suculent caramel ", c:"unisexe", p:"25 000", i:"Prouduits/Suculent_caramel.jpeg", d:"Suculent", b:""},
+    {n:"Eclair latafa ", c:"unisexe", p:"23 000", i:"Prouduits/Eclair_latafa.jpeg", d:"Eclair", b:""},
+    {n:"Oud envoutant ", c:"unisexe", p:"23 000", i:"Prouduits/Oud_envoutant .jpeg ", d:"Oud", b:""},
     {n:"Gucci Bloom", c:"femme", p:"39 000", i:"https://i.pinimg.com/1200x/ad/21/41/ad2141a31d79002bac34decea8461f34.jpg", d:"Floral", b:""},
     {n:"Prada L'Homme", c:"homme", p:"40 000", i:"https://images.unsplash.com/photo-1615634260167-c8cdede054de", d:"Sophistiqué", b:""},
     {n:"Flowerbomb", c:"femme", p:"44 000", i:"https://images.unsplash.com/photo-1563170351-be82bc888aa4", d:"Explosion", b:""},
