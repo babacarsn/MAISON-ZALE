@@ -1,12 +1,43 @@
 const phone = "221710474235";
 
 
+//les noms des parfum ,prix ;
+// Oud pour classik ,25000 ,Unisexe
+// Rose bleu Maison massimo, 75000 ,Unisexe
+// Liquid brun ,Unisexe ,25000
+  // Voyage de nuit ,Maison massimo Unisexe 75000 ,VoyageDeNuit.jpeg
+ 
+// Royal oak maison massimo Unisexe 75000 ,Royal_oak_maison_massimo .jpeg
+//          Oud Madawi 150000   Unisexe   oudMadawi.jpeg
+// Coeur blanc maison massimo    Unisexe 75000              Coeur_blanc_maison_massimo .jpeg
+// Exotic    Unisexe 16000             Exotic.jpeg
+
+//    Taraf arabian oud 150000   Unisexe                        tarafArabianOud.jpeg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//d: et :b  ne complete par rien laisse les comme ils sont
 const products = [
-    {n:"Chanel N°5", c:"femme", p:"45 000", i:"https://images.unsplash.com/photo-1541643600914-78b084683601", d:"Élégance intemporelle", b:"Best Seller"},
-    {n:"Dior Sauvage", c:"homme", p:"42 000", i:"https://images.unsplash.com/photo-1594035910387-fea47794261f", d:"Puissance fraîche", b:"Nouveau"},
-    {n:"Black Opium", c:"femme", p:"38 000", i:"https://images.unsplash.com/photo-1592945403244-b3fbafd7f539", d:"Addictif", b:""},
-    {n:"Versace Eros", c:"homme", p:"35 000", i:"https://images.unsplash.com/photo-1587017539504-67cfbddac569", d:"Séduction", b:""},
-    {n:"La Vie Est Belle", c:"femme", p:"43 000", i:"https://images.unsplash.com/photo-1523293182086-7651a899d37f", d:"Bonheur", b:"Best Seller"},
+    {n:"Oud pour classik", c:"unisexe", p:"25 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Collection Oud"},
+{n:"Rose bleu Maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/laRoseBleu.jpeg", d:"Maison Massimo", b:"Collection Prestige"},
+{n:"Liquid brun", c:"unisexe", p:"25 000", i:"Prouduits/LiquideBrun.jpeg", d:"Liquid Brun", b:"Collection Signature"},
+{n:"Voyage de nuit", c:"unisexe", p:"75 000", i:"Prouduits/VoyageDeNuit.jpeg", d:"Maison Massimo", b:"Collection Prestige"},
+{n:"Royal oak maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Royal_oak_maison_massimo .jpeg", d:"Maison Massimo", b:"Collection Prestige"},
+{n:"Oud Madawi", c:"unisexe", p:"150 000", i:"Prouduits/oudMadawi.jpeg", d:"Arabian Oud", b:"Collection Oud"},
+{n:"Coeur blanc maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Coeur_blanc_maison_massimo .jpeg", d:"Maison Massimo", b:"Collection Prestige"},
+{n:"Exotic", c:"unisexe", p:"16 000", i:"Prouduits/Exotic.jpeg", d:"Exotic Perfumes", b:"Collection Signature"},
+{n:"Taraf arabian oud", c:"unisexe", p:"150 000", i:"Prouduits/tarafArabianOud.jpeg", d:"Arabian Oud", b:"Collection Royale"},,
     {n:"1 Million", c:"homme", p:"36 000", i:"https://images.unsplash.com/photo-1585386959984-a4155224a1ad", d:"Audacieux", b:""},
     {n:"Armani Si", c:"femme", p:"41 000", i:"https://images.unsplash.com/photo-1528740561666-dc2479dc08ab", d:"Élégant", b:""},
     {n:"Le Male", c:"homme", p:"34 000", i:"https://i.pinimg.com/736x/ee/47/38/ee4738e5ab272d04509470fb1c3c6fef.jpg", d:"Classique", b:""},
