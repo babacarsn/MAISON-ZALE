@@ -22,7 +22,12 @@ const phone = "221710474235";
 //    Eclair latafa Unisexe  23000  Eclair_latafa.jpeg
 //  Oud envoutant  homme , 23000 , Oud_envoutant .jpeg 
 
-   
+  //   latafa 23000 Femme  Eclair_latafa.jpeg
+
+//   club_de_nuit.jpeg   Club de nuit 25000 Homme
+//   Femme Marshmallow 20000 Femme Marshmallow.jpeg
+
+// Gold signature 75000 Unisexe Gold_signature.jpeg
 
 
 
@@ -33,11 +38,18 @@ const phone = "221710474235";
 
 
 
+
+
+
+
+// git add .
+// git commit -m "feat: ajout des parfums v3"
+// git push origin main
 
 
 //d: et :b  ne complete par rien laisse les comme ils sont
 const products = [
-    {n:"Oud pour classik", c:"unisexe", p:"25 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Collection Oud"},
+{n:"Oud pour classik", c:"unisexe", p:"25 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Collection Oud"},
 {n:"Rose bleu Maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/laRoseBleu.jpeg", d:"Maison Massimo", b:"Collection Prestige"},
 {n:"Liquid brun", c:"unisexe", p:"25 000", i:"Prouduits/LiquideBrun.jpeg", d:"Liquid Brun", b:"Collection Signature"},
 {n:"Voyage de nuit", c:"unisexe", p:"75 000", i:"Prouduits/VoyageDeNuit.jpeg", d:"Maison Massimo", b:"Collection Prestige"},
@@ -46,15 +58,15 @@ const products = [
 {n:"Coeur blanc maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Coeur_blanc_maison_massimo .jpeg", d:"Maison Massimo", b:"Collection Prestige"},
 {n:"Exotic", c:"unisexe", p:"16 000", i:"Prouduits/Exotic.jpeg", d:"Exotic Perfumes", b:"Collection Signature"},
 {n:"Taraf arabian oud", c:"unisexe", p:"150 000", i:"Prouduits/tarafArabianOud.jpeg", d:"Arabian Oud", b:"Collection Royale"},,
-    {n:"Africain gold ", c:"unisexe", p:"90 000", i:"Prouduits/Africain_gold.jpeg", d:"Audacieux", b:""},
-    {n:"Suculent caramel ", c:"unisexe", p:"25 000", i:"Prouduits/Suculent_caramel.jpeg", d:"Suculent", b:""},
-    {n:"Eclair latafa ", c:"unisexe", p:"23 000", i:"Prouduits/Eclair_latafa.jpeg", d:"Eclair", b:""},
-    {n:"Oud envoutant ", c:"unisexe", p:"23 000", i:"Prouduits/Oud_envoutant .jpeg ", d:"Oud", b:""},
-    {n:"Gucci Bloom", c:"femme", p:"39 000", i:"https://i.pinimg.com/1200x/ad/21/41/ad2141a31d79002bac34decea8461f34.jpg", d:"Floral", b:""},
-    {n:"Prada L'Homme", c:"homme", p:"40 000", i:"https://images.unsplash.com/photo-1615634260167-c8cdede054de", d:"Sophistiqué", b:""},
-    {n:"Flowerbomb", c:"femme", p:"44 000", i:"https://images.unsplash.com/photo-1563170351-be82bc888aa4", d:"Explosion", b:""},
-    {n:"Gentleman", c:"homme", p:"38 000", i:"https://i.pinimg.com/736x/99/a9/c3/99a9c3f9900e3a40c09427923d819255.jpg", d:"Raffiné", b:""},
-    {n:"Marc Jacobs Daisy", c:"femme", p:"37 000", i:"https://i.pinimg.com/1200x/2c/eb/85/2ceb85237d72794b9e2ce97332e53f8f.jpg", d:"Lumineux", b:""},
+{n:"Africain gold ", c:"unisexe", p:"90 000", i:"Prouduits/Africain_gold.jpeg", d:"Audacieux", b:""},
+{n:"Suculent caramel ", c:"unisexe", p:"25 000", i:"Prouduits/Suculent_caramel.jpeg", d:"Suculent", b:""},
+{n:"Eclair latafa ", c:"femme", p:"23 000", i:"Prouduits/Eclair_latafa.jpeg", d:"Eclair", b:""},
+    {n:"Oud envoutant ", c:"unisexe", p:"23 000", i:"Prouduits/Oud_envoutant .jpeg", d:"Oud", b:""},
+    {n:"Club de nuit ", c:"homme", p:"25 000", i:"Prouduits/Club_de_nuit.jpeg", d:"Floral", b:""},
+    {n:"Marshmallow", c:"femme", p:"20 000", i:"Prouduits/Marshmallow.jpeg", d:"Sophistiqué", b:""},
+    {n:"Gold signature ", c:"unisexe", p:"75000", i:"Prouduits/Gold_signature.jpeg", d:"Explosion", b:""},
+    {n:"Rifaqat ", c:"unisexe", p:"15 000", i:"Prouduits/Rifaqat.jpeg", d:"Raffiné", b:""},
+    {n:"Intense wayfarer ", c:"homme", p:"15 000", i:"Prouduits/Intense_wayfarer.jpeg", d:"Lumineux", b:""},
     {n:"Terre d'Hermès", c:"homme", p:"46 000", i:"https://images.unsplash.com/photo-1595425970377-c9703cf48b6d", d:"Boisé", b:"Luxe"},
     {n:"Burberry Her", c:"femme", p:"39 500", i:"https://i.pinimg.com/1200x/40/6c/d3/406cd31536bba98bc4cc07ca7f09492b.jpg", d:"Gourmand", b:""},
     {n:"Good Girl", c:"femme", p:"41 500", i:"https://i.pinimg.com/1200x/b0/21/fa/b021fad89807037767df4d9e9af51dfd.jpg", d:"Audacieux", b:"Best Seller"},
