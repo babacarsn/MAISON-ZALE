@@ -1045,3 +1045,12 @@
   .order-modal-footer { padding: 1rem 1.2rem 1.4rem; }
   .order-modal-header { padding: 1.5rem 1.2rem 1.2rem; }
 }
+.phone-number{
+    color:#fff;          /* ou la couleur de ton choix */
+    text-decoration:none;
+    font-weight:500;
+}
+
+.phone-number:hover{
+   color: #d4af37;     /* Vert WhatsApp au survol */
+}
