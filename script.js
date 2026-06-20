@@ -273,3 +273,45 @@ function confirmOrderAndWhatsApp() {
   closeOrderModal();
   window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
 }
+
+
+
+// Désactiver le clic droit
+document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+});
+
+// Bloquer uniquement les raccourcis liés aux DevTools
+document.addEventListener("keydown", function (e) {
+
+    // F12
+    if (e.key === "F12") {
+        e.preventDefault();
+        return false;
+    }
+
+    // Ctrl + Shift + I
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") {
+        e.preventDefault();
+        return false;
+    }
+
+    // Ctrl + Shift + J
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "j") {
+        e.preventDefault();
+        return false;
+    }
+
+    // Ctrl + Shift + C (inspecteur d'élément)
+    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "c") {
+        e.preventDefault();
+        return false;
+    }
+
+    // Ctrl + U (afficher le code source)
+    if (e.ctrlKey && e.key.toLowerCase() === "u") {
+        e.preventDefault();
+        return false;
+    }
+
+});
