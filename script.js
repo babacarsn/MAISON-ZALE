@@ -3,7 +3,6 @@ const phone = "221710474235";
 // git commit -m "feat: ajout des parfums v3"
 // git push origin main
 //d: et :b  ne complete par rien laisse les comme ils sont
-
 const products = [
 {n:"Oud pour classik", c:"unisexe", p:"25 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Collection Oud"},
 {n:"Rose bleu Maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/laRoseBleu.jpeg", d:"Maison Massimo", b:"Collection Prestige"},
