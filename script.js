@@ -31,8 +31,23 @@ const products = [
     {n:"Khair Fusion", c:"femme", p:"15 000", i:"Prouduits/khair_fusion.jpg", d:"Fruité", b:"Nouveau"},  
     {n:"Khair Pistachio", c:"femme", p:"15 000", i:"Prouduits/khair_pistachio.jpg", d:"Pistache", b:"Best Seller"},
     {n:"Ignite Oud", c:"unisexe", p:"25 000", i:"Prouduits/Ignite_oud.jpg", d:"Boisé", b:"Collection Oud"},
-    {n:"Eclaire Latafa", c:"femme", p:"23 000", i:"Prouduits/Eclaire_latafa.jpeg", d:"Vanillé", b:"Nouveau"}
-   
+    {n:"Eclaire Latafa", c:"femme", p:"23 000", i:"Prouduits/Eclaire_latafa.jpeg", d:"Vanillé", b:"Nouveau"},
+
+   {n:"Coeur de pachouli", c:"unisexe", p:"90 000", i:"Prouduits/Coeur_de_pachouli.jpeg", d:"Boisé", b:"Best Seller"},
+
+    {n:"Iris gourmand", c:"unisexe", p:"90 000", i:"Prouduits/Iris_gourmand.jpeg", d:"Gourmand", b:"Best Seller"},
+
+    {n:"Collection Meissa 50ml", c:"unisexe", p:"25 000", i:"Prouduits/Collection _Meissa.jpeg", d:"Fruité", b:"Nouveau"},
+
+    {n:"Oud sable", c:"unisexe", p:"90 000", i:"Prouduits/Oud_sable.jpeg", d:"Boisé", b:"Collection Oud"},
+
+    {n:"Vanille voyage", c:"femme", p:"25 000", i:"Prouduits/Vanille_voyage.jpeg", d:"Vanillé", b:"Nouveau"},
+
+    {n:"Vulcan feu", c:"unisexe", p:"30 000", i:"Prouduits/Vulcan_feu.jpg", d:"Epicé", b:"Best Seller"},
+    // Taskem caramel cascade 15000 unisexe
+    {n:"Taskem caramel cascade", c:"unisexe", p:"15 000", i:"Prouduits/Taskem_caramel_cascade .jpg", d:"Caramel", b:"Nouveau"},
+
+    {n:"Oud and rose", c:"unisexe", p:"32 500", i:"Prouduits/OUD_&_ROSES.jpg", d:"Floral", b:"Collection Oud"}
        ];
 
 const catIcons = {
