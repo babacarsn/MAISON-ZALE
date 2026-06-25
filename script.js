@@ -69,7 +69,7 @@ const products = [
   {n:"Khair Confection", c:"femme", p:"15 000", i:"Prouduits/khair_confection.jpg", d:"Gourmand", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
   {n:"Khair Fusion", c:"femme", p:"15 000", i:"Prouduits/khair_fusion.jpg", d:"Fruité", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
   {n:"Khair Pistachio", c:"femme", p:"15 000", i:"Prouduits/khair_pistachio.jpg", d:"Pistache", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-  {n:"Ignite Oud", c:"unisexe", p:"25 000", i:"Prouduits/Ignite_oud.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+  {n:"Ignite Oud", c:"unisexe", p:"35 000", i:"Prouduits/Ignite_oud.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
   {n:"Eclaire Latafa", c:"femme", p:"23 000", i:"Prouduits/Eclaire_latafa.jpeg", d:"Vanillé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
   {n:"Coeur de pachouli", c:"unisexe", p:"90 000", i:"Prouduits/Coeur_de_pachouli.jpeg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
   {n:"Iris gourmand", c:"unisexe", p:"90 000", i:"Prouduits/Iris_gourmand.jpeg", d:"Gourmand", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
@@ -84,8 +84,8 @@ const products = [
 {n:"Rise Fiffs", c:"unisexe", p:"25 000", i:"Prouduits/Rise_Fiffs.jpg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"Blue by Ahmed", c:"unisexe", p:"25 000", i:"Prouduits/Blue_by_Ahmed.jpg", d:"Frais", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"Kafh By Ahmed", c:"homme", p:"18 000", i:"Prouduits/Kafh_By_Ahmed.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-{n:"Blue Musk", c:"unisexe", p:"25 000", i:"Prouduits/Blue_Musk.jpg", d:"Musc", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-{n:"Casanova", c:"unisexe", p:"18 000", i:"Prouduits/Casanova.jpg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"OUD AL MALIK -Blue Musk", c:"unisexe", p:"25 000", i:"Prouduits/oud_al_malick_blue_musk.jpeg", d:"Musc", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"   OUD AL MALIK -Casanova", c:"unisexe", p:"18 000", i:"Prouduits/oud_al_malick_casanova.jpeg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 ];
 
 const catIcons = {
