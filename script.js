@@ -78,7 +78,14 @@ const products = [
   {n:"Vanille voyage", c:"femme", p:"25 000", i:"Prouduits/Vanille_voyage.jpeg", d:"Vanillé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
   {n:"Vulcan feu", c:"unisexe", p:"30 000", i:"Prouduits/Vulcan_feu.jpg", d:"Epicé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
   {n:"Taskem caramel cascade", c:"unisexe", p:"15 000", i:"Prouduits/Taskem_caramel_cascade .jpg", d:"Caramel", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-  {n:"Oud and rose", c:"unisexe", p:"32 500", i:"Prouduits/OUD_&_ROSES.jpg", d:"Floral", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"}
+  {n:"Oud and rose", c:"unisexe", p:"32 500", i:"Prouduits/OUD_&_ROSES.jpg", d:"Floral", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+  {n:"Drifft Riffs", c:"unisexe", p:"25 000", i:"Prouduits/Drifft_Riffs.jpg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Vanilla Aura", c:"femme", p:"25 000", i:"Prouduits/Vanilla_Aura.jpg", d:"Vanille", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Rise Fiffs", c:"unisexe", p:"25 000", i:"Prouduits/Rise_Fiffs.jpg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Blue by Ahmed", c:"unisexe", p:"25 000", i:"Prouduits/Blue_by_Ahmed.jpg", d:"Frais", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Kafh By Ahmed", c:"homme", p:"18 000", i:"Prouduits/Kafh_By_Ahmed.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Blue Musk", c:"unisexe", p:"25 000", i:"Prouduits/Blue_Musk.jpg", d:"Musc", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Casanova", c:"unisexe", p:"18 000", i:"Prouduits/Casanova.jpg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 ];
 
 const catIcons = {
@@ -87,7 +94,6 @@ const catIcons = {
   unisexe: 'fa-infinity'
 };
 const catLabels = { femme: 'Pour Elle', homme: 'Pour Lui', unisexe: 'Unisexe' };
-
 const grid = document.getElementById('products');
 const searchInput = document.getElementById('search');
 const filterBtns = document.querySelectorAll('.filter-btn');
