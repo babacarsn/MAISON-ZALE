@@ -86,6 +86,9 @@ const products = [
 {n:"Kafh By Ahmed", c:"homme", p:"18 000", i:"Prouduits/Kafh_By_Ahmed.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"OUD AL MALIK -Blue Musk", c:"unisexe", p:"25 000", i:"Prouduits/oud_al_malick_blue_musk.jpeg", d:"Musc", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"   OUD AL MALIK -Casanova", c:"unisexe", p:"18 000", i:"Prouduits/oud_al_malick_casanova.jpeg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Intense Infusion", c:"unisexe", p:"15 000", i:"Prouduits/Intense_infusion.jpeg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Bint Hooran Rose Passion", c:"femme", p:"15 000", i:"Prouduits/Bint_hooran_rose_passion.jpeg", d:"Parfum floral", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Oud Embrosia Maison Manel", c:"unisexe", p:"25 000", i:"Prouduits/oud-ambrosia.jpg", d:"Oud", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"}
 ];
 
 const catIcons = {
