@@ -83,7 +83,7 @@ const products = [
 {n:"Vanilla Aura", c:"femme", p:"25 000", i:"Prouduits/Vanilla_Aura.jpg", d:"Vanille", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"Rise Fiffs", c:"unisexe", p:"25 000", i:"Prouduits/Rise_Fiffs.jpg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"Blue by Ahmed", c:"unisexe", p:"25 000", i:"Prouduits/Blue_by_Ahmed.jpg", d:"Frais", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-{n:"Kafh By Ahmed", c:"homme", p:"18 000", i:"Prouduits/Kafh_By_Ahmed.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
+{n:"Kafh By Ahmed", c:"homme", p:"25 000", i:"Prouduits/Kafh_By_Ahmed.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"OUD AL MALIK -Blue Musk", c:"unisexe", p:"25 000", i:"Prouduits/oud_al_malick_blue_musk.jpeg", d:"Musc", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"   OUD AL MALIK -Casanova", c:"unisexe", p:"18 000", i:"Prouduits/oud_al_malick_casanova.jpeg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
 {n:"Intense Infusion", c:"unisexe", p:"15 000", i:"Prouduits/Intense_infusion.jpeg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
