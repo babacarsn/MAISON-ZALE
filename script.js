@@ -132,7 +132,7 @@ const products = [
   {n:"Rise Fiffs", c:"unisexe", p:"25 000", i:"Prouduits/Rise_Fiffs.jpg", d:"Parfum unisexe", b:"Boisé"},
   {n:"Blue by Ahmed", c:"unisexe", p:"25 000", i:"Prouduits/Blue_by_Ahmed.jpg", d:"Frais", b:"Aquatique"},
   {n:"Kafh By Ahmed", c:"homme", p:"25 000", i:"Prouduits/Kafh_By_Ahmed.jpg", d:"Boisé", b:"Boisé"},
-  {n:"OUD AL MALIK -Blue Musk", c:"unisexe", p:"25 000", i:"Prouduits/oud_al_malick_blue_musk.jpeg", d:"Musc", b:"Musc"},
+  {n:"OUD AL MALIK -Blue Musk", c:"unisexe", p:"18 000", i:"Prouduits/oud_al_malick_blue_musk.jpeg", d:"Musc", b:"Musc"},
   {n:"OUD AL MALIK -Casanova", c:"unisexe", p:"18 000", i:"Prouduits/oud_al_malick_casanova.jpeg", d:"Parfum unisexe", b:"Oriental"},
   {n:"Intense Infusion", c:"unisexe", p:"15 000", i:"Prouduits/Intense_infusion.jpeg", d:"Parfum unisexe", b:"Aromatique"},
   {n:"Bint Hooran Rose Passion", c:"femme", p:"15 000", i:"Prouduits/Bint_hooran_rose_passion.jpeg", d:"Parfum floral", b:"Floral"},
