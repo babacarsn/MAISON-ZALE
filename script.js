@@ -1,95 +1,3 @@
-const phone = "221710474235";
-// git add .
-// git commit -m "feat: ajout des parfums v3"
-// git push origin main
-//d: et :b  ne complete par rien laisse les comme ils sont
-// const products = [
-// {n:"Oud pour classik", c:"unisexe", p:"25 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Collection Oud"},
-// {n:"Rose bleu Maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/laRoseBleu.jpeg", d:"Maison Massimo", b:"Collection Prestige"},
-// {n:"Liquid brun", c:"unisexe", p:"25 000", i:"Prouduits/LiquideBrun.jpeg", d:"Liquid Brun", b:"Collection Signature"},
-// {n:"Voyage de nuit", c:"unisexe", p:"75 000", i:"Prouduits/VoyageDeNuit.jpeg", d:"Maison Massimo", b:"Collection Prestige"},
-// {n:"Royal oak maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Royal_oak_maison_massimo .jpeg", d:"Maison Massimo", b:"Collection Prestige"},
-// {n:"Oud Madawi", c:"unisexe", p:"150 000", i:"Prouduits/oudMadawi.jpeg", d:"Arabian Oud", b:"Collection Oud"},
-// {n:"Coeur blanc maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Coeur_blanc_maison_massimo .jpeg", d:"Maison Massimo", b:"Collection Prestige"},
-// {n:"Exotic", c:"unisexe", p:"16 000", i:"Prouduits/Exotic.jpeg", d:"Exotic Perfumes", b:"Collection Signature"},
-// {n:"Taraf arabian oud", c:"unisexe", p:"150 000", i:"Prouduits/tarafArabianOud.jpeg", d:"Arabian Oud", b:"Collection Royale"},,
-// {n:"Africain gold ", c:"unisexe", p:"90 000", i:"Prouduits/Africain_gold.jpeg", d:"Audacieux", b:""},
-// {n:"Suculent caramel ", c:"unisexe", p:"25 000", i:"Prouduits/Suculent_caramel.jpeg", d:"Suculent", b:""},
-//     {n:"Oud envoutant ", c:"unisexe", p:"23 000", i:"Prouduits/Oud_envoutant .jpeg", d:"Oud", b:""},
-//     {n:"Club de nuit ", c:"homme", p:"25 000", i:"Prouduits/club_de_nuit.jpeg", d:"Floral", b:""},
-//     {n:"Marshmallow", c:"femme", p:"20 000", i:"Prouduits/Marshmallow.jpeg", d:"Sophistiqué", b:""},
-//     {n:"Gold signature ", c:"unisexe", p:"75000", i:"Prouduits/Gold_signature.jpeg", d:"Explosion", b:""},
-//     {n:"Rifaqat ", c:"unisexe", p:"15 000", i:"Prouduits/Rifaqat.jpeg", d:"Raffiné", b:""},
-//     {n:"Intense wayfarer ", c:"homme", p:"15 000", i:"Prouduits/Intense_wayfarer.jpeg", d:"Lumineux", b:""},
-//     {n:"Azzure royal", c:"Unisexe", p:"25 000", i:"Prouduits/Azzure_royal.jpg", d:"Boisé", b:"Luxe"},
-//     {n:"Momento riffs ", c:"Unisexe", p:"25 000", i:"Prouduits/Momento_riffs .jpg", d:"Gourmand", b:""},
-//     {n:"Hawas for him", c:"Unisexe", p:"30 000", i:"Prouduits/Hawas_for_him.jpg", d:"Audacieux", b:"Best Seller"},
-//     {n:"Sultan 9", c:"Unisexe", p:"25 000", i:"Prouduits/Sultan_9.jpg", d:"Aventure", b:""},
-//     {n:"Eshal vanilla ", c:"femme", p:"20 000", i:"Prouduits/Eshal_vanilla.jpeg", d:"Libre", b:"Luxe"},
-//     {n:"Vanilla seduction", c:"femme", p:"25 000", i:"Prouduits/Vanilla_seduction.jpeg", d:"Boisé", b:""},
-//     {n:"Khair Confection", c:"femme", p:"15 000", i:"Prouduits/khair_confection.jpg", d:"Gourmand", b:"Nouveau"},
-//     {n:"Khair Fusion", c:"femme", p:"15 000", i:"Prouduits/khair_fusion.jpg", d:"Fruité", b:"Nouveau"},  
-//     {n:"Khair Pistachio", c:"femme", p:"15 000", i:"Prouduits/khair_pistachio.jpg", d:"Pistache", b:"Best Seller"},
-//     {n:"Ignite Oud", c:"unisexe", p:"25 000", i:"Prouduits/Ignite_oud.jpg", d:"Boisé", b:"Collection Oud"},
-//     {n:"Eclaire Latafa", c:"femme", p:"23 000", i:"Prouduits/Eclaire_latafa.jpeg", d:"Vanillé", b:"Nouveau"},
-//    {n:"Coeur de pachouli", c:"unisexe", p:"90 000", i:"Prouduits/Coeur_de_pachouli.jpeg", d:"Boisé", b:"Best Seller"},
-//     {n:"Iris gourmand", c:"unisexe", p:"90 000", i:"Prouduits/Iris_gourmand.jpeg", d:"Gourmand", b:"Best Seller"},
-//     {n:"Collection Meissa 50ml", c:"unisexe", p:"25 000", i:"Prouduits/Collection _Meissa.jpeg", d:"Fruité", b:"Nouveau"},
-//     {n:"Oud sable", c:"unisexe", p:"90 000", i:"Prouduits/Oud_sable.jpeg", d:"Boisé", b:"Collection Oud"},
-//     {n:"Vanille voyage", c:"femme", p:"25 000", i:"Prouduits/Vanille_voyage.jpeg", d:"Vanillé", b:"Nouveau"},
-//     {n:"Vulcan feu", c:"unisexe", p:"30 000", i:"Prouduits/Vulcan_feu.jpg", d:"Epicé", b:"Best Seller"},
-//     {n:"Taskem caramel cascade", c:"unisexe", p:"15 000", i:"Prouduits/Taskem_caramel_cascade .jpg", d:"Caramel", b:"Nouveau"},
-//     {n:"Oud and rose", c:"unisexe", p:"32 500", i:"Prouduits/OUD_&_ROSES.jpg", d:"Floral", b:"Collection Oud"}
-//        ];
-
-// const products = [
-//   {n:"Oud pour classik", c:"unisexe", p:"25 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Rose bleu Maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/laRoseBleu.jpeg", d:"Maison Massimo", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Liquid brun", c:"unisexe", p:"25 000", i:"Prouduits/LiquideBrun.jpeg", d:"Liquid Brun", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Voyage de nuit", c:"unisexe", p:"75 000", i:"Prouduits/VoyageDeNuit.jpeg", d:"Maison Massimo", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Royal oak maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Royal_oak_maison_massimo .jpeg", d:"Maison Massimo", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Oud Madawi", c:"unisexe", p:"150 000", i:"Prouduits/oudMadawi.jpeg", d:"Arabian Oud", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Coeur blanc maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Coeur_blanc_maison_massimo .jpeg", d:"Maison Massimo", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Exotic", c:"unisexe", p:"16 000", i:"Prouduits/Exotic.jpeg", d:"Exotic Perfumes", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Taraf arabian oud", c:"unisexe", p:"150 000", i:"Prouduits/tarafArabianOud.jpeg", d:"Arabian Oud", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Africain gold", c:"unisexe", p:"90 000", i:"Prouduits/Africain_gold.jpeg", d:"Audacieux", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Suculent caramel", c:"unisexe", p:"25 000", i:"Prouduits/Suculent_caramel.jpeg", d:"Suculent", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Oud envoutant", c:"unisexe", p:"23 000", i:"Prouduits/Oud_envoutant .jpeg", d:"Oud", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Club de nuit", c:"homme", p:"25 000", i:"Prouduits/club_de_nuit.jpeg", d:"Floral", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Marshmallow", c:"femme", p:"20 000", i:"Prouduits/Marshmallow.jpeg", d:"Sophistiqué", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Gold signature", c:"unisexe", p:"75000", i:"Prouduits/Gold_signature.jpeg", d:"Explosion", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Rifaqat", c:"unisexe", p:"15 000", i:"Prouduits/Rifaqat.jpeg", d:"Raffiné", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Intense wayfarer", c:"homme", p:"15 000", i:"Prouduits/Intense_wayfarer.jpeg", d:"Lumineux", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Azzure royal", c:"Unisexe", p:"25 000", i:"Prouduits/Azzure_royal.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Momento riffs", c:"Unisexe", p:"25 000", i:"Prouduits/Momento_riffs .jpg", d:"Gourmand", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Hawas for him", c:"Unisexe", p:"30 000", i:"Prouduits/Hawas_for_him.jpg", d:"Audacieux", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Sultan 9", c:"Unisexe", p:"25 000", i:"Prouduits/Sultan_9.jpg", d:"Aventure", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Eshal vanilla", c:"femme", p:"20 000", i:"Prouduits/Eshal_vanilla.jpeg", d:"Libre", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Vanilla seduction", c:"femme", p:"25 000", i:"Prouduits/Vanilla_seduction.jpeg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Khair Confection", c:"femme", p:"15 000", i:"Prouduits/khair_confection.jpg", d:"Gourmand", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Khair Fusion", c:"femme", p:"15 000", i:"Prouduits/khair_fusion.jpg", d:"Fruité", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Khair Pistachio", c:"femme", p:"15 000", i:"Prouduits/khair_pistachio.jpg", d:"Pistache", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Ignite Oud", c:"unisexe", p:"35 000", i:"Prouduits/Ignite_oud.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Eclaire Latafa", c:"femme", p:"23 000", i:"Prouduits/Eclaire_latafa.jpeg", d:"Vanillé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Coeur de pachouli", c:"unisexe", p:"90 000", i:"Prouduits/Coeur_de_pachouli.jpeg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Iris gourmand", c:"unisexe", p:"90 000", i:"Prouduits/Iris_gourmand.jpeg", d:"Gourmand", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Collection Meissa 50ml", c:"unisexe", p:"25 000", i:"Prouduits/Collection _Meissa.jpeg", d:"Fruité", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Oud sable", c:"unisexe", p:"90 000", i:"Prouduits/Oud_sable.jpeg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Vanille voyage", c:"femme", p:"25 000", i:"Prouduits/Vanille_voyage.jpeg", d:"Vanillé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Vulcan feu", c:"unisexe", p:"30 000", i:"Prouduits/Vulcan_feu.jpg", d:"Epicé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Taskem caramel cascade", c:"unisexe", p:"15 000", i:"Prouduits/Taskem_caramel_cascade .jpg", d:"Caramel", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Oud and rose", c:"unisexe", p:"32 500", i:"Prouduits/OUD_&_ROSES.jpg", d:"Floral", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-//   {n:"Drifft Riffs", c:"unisexe", p:"25 000", i:"Prouduits/Drifft_Riffs.jpg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"Vanilla Aura", c:"femme", p:"25 000", i:"Prouduits/Vanilla_Aura.jpg", d:"Vanille", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"Rise Fiffs", c:"unisexe", p:"25 000", i:"Prouduits/Rise_Fiffs.jpg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"Blue by Ahmed", c:"unisexe", p:"25 000", i:"Prouduits/Blue_by_Ahmed.jpg", d:"Frais", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"Kafh By Ahmed", c:"homme", p:"25 000", i:"Prouduits/Kafh_By_Ahmed.jpg", d:"Boisé", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"OUD AL MALIK -Blue Musk", c:"unisexe", p:"25 000", i:"Prouduits/oud_al_malick_blue_musk.jpeg", d:"Musc", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"   OUD AL MALIK -Casanova", c:"unisexe", p:"18 000", i:"Prouduits/oud_al_malick_casanova.jpeg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"Intense Infusion", c:"unisexe", p:"15 000", i:"Prouduits/Intense_infusion.jpeg", d:"Parfum unisexe", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"Bint Hooran Rose Passion", c:"femme", p:"15 000", i:"Prouduits/Bint_hooran_rose_passion.jpeg", d:"Parfum floral", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"},
-// {n:"Oud Embrosia Maison Manel", c:"unisexe", p:"25 000", i:"Prouduits/oud-ambrosia.jpg", d:"Oud", b:"🔥 PROMO • +2 Extraits de parfum OFFERTS"}
-// ];
 const products = [
   {n:"Oud pour classik", c:"unisexe", p:"25 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Oud"},
   {n:"Rose bleu Maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/laRoseBleu.jpeg", d:"Maison Massimo", b:"Floral"},
@@ -140,283 +48,235 @@ const products = [
   { n:"Musamam White Intense",c:"unisexe",p:"25 000",i:"Prouduits/Musaman_white_intense_latafa.jpeg",d:"Lattafa",b:"Boisé"},
   {n:"Khamra Waha", c:"unisexe", p:"30 000", i:"Prouduits/Khamra_waha.jpeg", d:"Parfum unisexe", b:"Oriental"}
 ];
+const phone = "221710474235";
 
-const catIcons = {
-  femme: 'fa-venus',
-  homme: 'fa-mars',
-  unisexe: 'fa-infinity'
-};
-const catLabels = { femme: 'Pour Elle', homme: 'Pour Lui', unisexe: 'Unisexe' };
-const grid = document.getElementById('products');
-const searchInput = document.getElementById('search');
-const filterBtns = document.querySelectorAll('.filter-btn');
-const countLabel = document.getElementById('count-label');
+/*
+  SOURCE PRODUITS
+  - Par défaut: catalogue local ci-dessus, issu des produits fournis.
+  - Pour connecter Google Sheets plus tard: renseigner une URL CSV publiée
+    dans GOOGLE_SHEETS_CSV_URL. Les colonnes recommandées sont:
+    n,c,p,i,d,b
+*/
+const GOOGLE_SHEETS_CSV_URL = "";
+const catLabel = {femme:"Pour Elle", homme:"Pour Lui", unisexe:"Unisexe"};
 
-let currentCat = 'tous';
+let catalog = [...products];
+let cart = JSON.parse(localStorage.getItem("zale_cart") || "[]");
+let favs = JSON.parse(localStorage.getItem("zale_favs") || "[]");
 
-function render() {
-  const q = searchInput.value.toLowerCase().trim();
-  const filtered = products.filter(p =>
-    (currentCat === 'tous' || p.c === currentCat) &&
-    p.n.toLowerCase().includes(q)
-  );
+const money = n => Number(String(n).replace(/\s/g,"").replace(",",".")).toLocaleString("fr-FR") + " FCFA";
+const priceNumber = p => Number(String(p).replace(/\s/g,"").replace(/[^\d.]/g,"")) || 0;
 
-  countLabel.textContent = `(${filtered.length})`;
-
-  if (!filtered.length) {
-    grid.innerHTML = `
-      <div class="empty-state">
-        <i class="fas fa-bottle-droplet"></i>
-        <p>Aucun parfum trouvé pour votre recherche.</p>
-      </div>`;
-    return;
-  }
-
-  grid.innerHTML = filtered.map((p, i) => {
-    const badgeHtml = p.b ? `<div class="card-badge ${p.b.toLowerCase() === 'luxe' ? 'luxe' : ''}">${p.b}</div>` : '';
-    const icon = catIcons[p.c] || 'fa-spray-can';
-    const label = catLabels[p.c] || p.c;
-    const whatsappMsg = encodeURIComponent(`Bonjour Maison Zale 🌹\n\nJe souhaite commander :\n✨ *${p.n}*\n💰 Prix : ${p.p} FCFA\n\nMerci !`);
-    return `
-      <div class="product-card" style="animation-delay:${i * 0.04}s">
-        <div class="card-image">
-          ${badgeHtml}
-          <img loading="lazy" src="${p.i}?auto=format&fit=crop&w=600&q=80" alt="${p.n}">
-        </div>
-        <div class="card-body">
-          <div class="card-cat"><i class="fas ${icon}"></i>${label}</div>
-          <div class="card-name">${p.n}</div>
-          <div class="card-desc">${p.d}</div>
-          <div class="card-footer">
-            <div class="card-price">
-              ${p.p}
-              <span>FCFA</span>
-            </div>
-            <button class="card-btn" onclick='addToCart(${JSON.stringify(p)})'>
-              <i class="fas fa-shopping-bag"></i>Ajouter
-            </button>
-          </div>
-        </div>
-      </div>`;
-  }).join('');
+function save(){
+  localStorage.setItem("zale_cart", JSON.stringify(cart));
+  localStorage.setItem("zale_favs", JSON.stringify(favs));
+  updateCounts();
 }
-
-searchInput.addEventListener('input', render);
-filterBtns.forEach(btn => {
-  btn.addEventListener('click', () => {
-    filterBtns.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    currentCat = btn.dataset.cat;
-    render();
-  });
-});
-
-// Header scroll effect
-window.addEventListener('scroll', () => {
-  document.getElementById('header').classList.toggle('scrolled', window.scrollY > 60);
-});
-
-render();
-
-// ===== CART LOGIC =====
-let cart = [];
-
-function addToCart(product) {
-  const existing = cart.find(i => i.n === product.n);
-  if (existing) {
-    existing.qty++;
-  } else {
-    cart.push({ ...product, qty: 1 });
-  }
-  updateCartUI();
-  openCart();
-  // Mini animation on button
-  const countEl = document.getElementById('cartCount');
-  countEl.style.transform = 'scale(1.5)';
-  setTimeout(() => countEl.style.transform = 'scale(1)', 200);
+function updateCounts(){
+  const qty = cart.reduce((s,p)=>s+p.qty,0);
+  const c = document.getElementById("cartCount");
+  const f = document.getElementById("favCount");
+  if(c){c.textContent=qty;c.classList.toggle("visible",qty>0);}
+  if(f) f.textContent=favs.length;
 }
-
-function removeFromCart(name) {
-  cart = cart.filter(i => i.n !== name);
-  updateCartUI();
+function toast(message){
+  const el=document.getElementById("toast");
+  if(!el)return;
+  el.textContent=message;el.classList.add("show");
+  clearTimeout(window.__toast);window.__toast=setTimeout(()=>el.classList.remove("show"),2200);
 }
-
-function changeQty(name, delta) {
-  const item = cart.find(i => i.n === name);
-  if (!item) return;
-  item.qty += delta;
-  if (item.qty <= 0) cart = cart.filter(i => i.n !== name);
-  updateCartUI();
+function esc(value){
+  return String(value ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 }
-
-function clearCart() {
-  cart = [];
-  updateCartUI();
-}
-
-function openCart() {
-  document.getElementById('cartPanel').classList.add('open');
-  document.getElementById('cartOverlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeCart() {
-  document.getElementById('cartPanel').classList.remove('open');
-  document.getElementById('cartOverlay').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-function updateCartUI() {
-  const totalItems = cart.reduce((s, i) => s + i.qty, 0);
-  const countEl = document.getElementById('cartCount');
-  countEl.textContent = totalItems;
-  countEl.classList.toggle('visible', totalItems > 0);
-
-  const footer = document.getElementById('cartFooter');
-  const itemsEl = document.getElementById('cartItems');
-
-  if (cart.length === 0) {
-    itemsEl.innerHTML = `
-      <div class="cart-empty">
-        <i class="fas fa-bottle-droplet"></i>
-        <p>Votre panier est vide.<br>Ajoutez vos parfums préférés !</p>
-      </div>`;
-    footer.style.display = 'none';
-    return;
-  }
-
-  footer.style.display = 'block';
-
-  itemsEl.innerHTML = cart.map(item => `
-    <div class="cart-item">
-      <img class="cart-item-img" src="${item.i}?auto=format&fit=crop&w=140&q=80" alt="${item.n}">
-      <div class="cart-item-info">
-        <div class="cart-item-name">${item.n}</div>
-        <div class="cart-item-price">${(parseInt(item.p.replace(/\s/g,'').replace(',','')) * item.qty).toLocaleString('fr-FR')} FCFA</div>
-        <div class="cart-item-controls">
-          <button class="qty-btn" onclick="changeQty('${item.n.replace(/'/g,"\\'")}', -1)">−</button>
-          <span class="qty-value">${item.qty}</span>
-          <button class="qty-btn" onclick="changeQty('${item.n.replace(/'/g,"\\'")}', 1)">+</button>
-        </div>
-      </div>
-      <button class="cart-item-remove" onclick="removeFromCart('${item.n.replace(/'/g,"\\'")}')">
-        <i class="fas fa-trash-alt"></i>
+function productCard(p){
+  const fav=favs.includes(p.n);
+  return `<article class="product-card" data-name="${esc(p.n)}">
+    <div class="product-image">
+      <span class="product-badge">${esc(p.b || "Sélection Zale")}</span>
+      <button class="fav ${fav?"active":""}" data-fav="${esc(p.n)}" aria-label="Ajouter aux favoris">
+        <i class="${fav?"fa-solid":"fa-regular"} fa-heart"></i>
       </button>
+      <img loading="lazy" src="${esc(p.i)}" alt="${esc(p.n)}" onerror="this.closest('.product-image').classList.add('image-error')">
     </div>
-  `).join('');
-
-  const total = cart.reduce((s, item) => {
-    return s + parseInt(item.p.replace(/\s/g,'').replace(',','')) * item.qty;
-  }, 0);
-  document.getElementById('cartTotal').innerHTML = `${total.toLocaleString('fr-FR')} <span>FCFA</span>`;
+    <div class="product-info">
+      <div class="product-cat">${esc(catLabel[p.c]||p.c)}</div>
+      <h3 class="product-name">${esc(p.n)}</h3>
+      <p class="product-desc">${esc(p.d||"Signature Maison Zale")}</p>
+      <div class="product-bottom">
+        <div class="price">${money(p.p)}</div>
+        <button class="add-btn" data-add="${esc(p.n)}"><i class="fa-solid fa-bag-shopping"></i> Ajouter</button>
+      </div>
+    </div>
+  </article>`;
 }
-
-function orderOnWhatsApp() {
-  if (cart.length === 0) return;
-  // Ouvre le formulaire de livraison avant WhatsApp
-  openOrderModal();
+function renderProducts(list){
+  const grid=document.getElementById("productsGrid");
+  if(!grid)return;
+  grid.innerHTML=list.length?list.map(productCard).join(""):`<div class="no-results"><i class="fa-solid fa-magnifying-glass"></i><p>Aucun produit ne correspond à votre recherche.</p></div>`;
+  const count=document.getElementById("resultCount"); if(count) count.textContent=list.length;
 }
-
-function openOrderModal() {
-  const modal = document.getElementById('orderModal');
-  modal.classList.add('open');
-  document.body.style.overflow = 'hidden';
-  // Reset errors
-  document.getElementById('orderFormError').style.display = 'none';
-  ['orderPrenom','orderNom','orderTel','orderAdresse'].forEach(id => {
-    document.getElementById(id).classList.remove('error');
+function applyFilters(){
+  const q=(document.getElementById("catalogSearch")?.value||"").trim().toLowerCase();
+  const cat=document.querySelector(".filter-chip.active")?.dataset.cat||"tous";
+  const sort=document.getElementById("sortSelect")?.value||"default";
+  let list=catalog.filter(p=>{
+    const text=`${p.n} ${p.c} ${p.d||""} ${p.b||""}`.toLowerCase();
+    return (cat==="tous"||p.c===cat) && (!q||text.includes(q));
   });
+  if(sort==="priceAsc") list.sort((a,b)=>priceNumber(a.p)-priceNumber(b.p));
+  if(sort==="priceDesc") list.sort((a,b)=>priceNumber(b.p)-priceNumber(a.p));
+  if(sort==="name") list.sort((a,b)=>a.n.localeCompare(b.n));
+  renderProducts(list);
 }
-
-function closeOrderModal() {
-  document.getElementById('orderModal').classList.remove('open');
-  document.body.style.overflow = '';
+function addToCart(p){
+  const item=cart.find(x=>x.n===p.n);
+  item?item.qty++:cart.push({...p,qty:1});
+  save();renderCart();openCart();toast("Produit ajouté au panier");
 }
-
-// Fermer si clic sur l'overlay
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('orderModal').addEventListener('click', function(e) {
-    if (e.target === this) closeOrderModal();
+function toggleFav(name){
+  const i=favs.indexOf(name);
+  i>-1?favs.splice(i,1):favs.push(name);
+  save();
+  document.querySelectorAll("[data-fav]").forEach(btn=>{
+    if(btn.dataset.fav===name){
+      const active=favs.includes(name);
+      btn.classList.toggle("active",active);
+      btn.innerHTML=`<i class="${active?"fa-solid":"fa-regular"} fa-heart"></i>`;
+    }
   });
-});
-
-function confirmOrderAndWhatsApp() {
-  const prenom  = document.getElementById('orderPrenom').value.trim();
-  const nom     = document.getElementById('orderNom').value.trim();
-  const tel     = document.getElementById('orderTel').value.trim();
-  const adresse = document.getElementById('orderAdresse').value.trim();
-
-  // Validation
-  let hasError = false;
-  [['orderPrenom', prenom], ['orderNom', nom], ['orderTel', tel], ['orderAdresse', adresse]].forEach(([id, val]) => {
-    const el = document.getElementById(id);
-    if (!val) { el.classList.add('error'); hasError = true; }
-    else el.classList.remove('error');
-  });
-
-  if (hasError) {
-    document.getElementById('orderFormError').style.display = 'flex';
-    return;
+  toast(i>-1?"Retiré des favoris":"Ajouté aux favoris");
+}
+function openCart(){document.getElementById("cartDrawer")?.classList.add("open");document.getElementById("drawerOverlay")?.classList.add("open");}
+function closeCart(){document.getElementById("cartDrawer")?.classList.remove("open");document.getElementById("drawerOverlay")?.classList.remove("open");}
+function renderCart(){
+  const el=document.getElementById("cartItems"), footer=document.getElementById("cartFooter");
+  if(!el)return;
+  if(!cart.length){
+    el.innerHTML='<div class="cart-empty"><i class="fa-solid fa-bag-shopping"></i><p>Votre panier est vide.</p><span>Ajoutez vos fragrances préférées.</span></div>';
+    if(footer)footer.style.display="none"; return;
   }
-  document.getElementById('orderFormError').style.display = 'none';
+  if(footer)footer.style.display="block";
+  el.innerHTML=cart.map((p,i)=>`<div class="cart-item">
+    <img src="${esc(p.i)}" alt="${esc(p.n)}">
+    <div><h4>${esc(p.n)}</h4><div class="cart-price">${money(priceNumber(p.p)*p.qty)}</div>
+    <div class="qty"><button data-qty="${i}" data-delta="-1">−</button><span>${p.qty}</span><button data-qty="${i}" data-delta="1">+</button></div></div>
+    <button class="remove" data-remove="${i}" aria-label="Supprimer"><i class="fa-solid fa-trash"></i></button>
+  </div>`).join("");
+  const total=cart.reduce((s,p)=>s+priceNumber(p.p)*p.qty,0);
+  document.getElementById("cartTotal").textContent=money(total);
+}
+function changeQty(i,d){
+  if(!cart[i])return;
+  cart[i].qty+=d;if(cart[i].qty<=0)cart.splice(i,1);
+  save();renderCart();
+}
+function removeItem(i){cart.splice(i,1);save();renderCart();toast("Produit retiré du panier");}
 
-  // Construction du message WhatsApp
-  let lines = cart.map(item => {
-    const unitPrice = parseInt(item.p.replace(/\s/g,'').replace(',',''));
-    const total = unitPrice * item.qty;
-    return `• *${item.n}* × ${item.qty} = ${total.toLocaleString('fr-FR')} FCFA`;
-  }).join('\n');
-
-  const total = cart.reduce((s, item) => {
-    return s + parseInt(item.p.replace(/\s/g,'').replace(',','')) * item.qty;
-  }, 0);
-
-  const msg = encodeURIComponent(
-    `Bonjour Maison Zale 🌹\n\nNom : *${prenom} ${nom}*\n📞 Téléphone : *${tel}*\n📍 Adresse : *${adresse}*\n\n🛍️ Commande :\n\n${lines}\n\n💰 *Total : ${total.toLocaleString('fr-FR')} FCFA*\n\nMerci !`
-  );
-
-  closeOrderModal();
-  window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
+function orderText(customer={}){
+  const lines=cart.map(p=>`• ${p.n} x${p.qty} — ${money(priceNumber(p.p)*p.qty)}`);
+  const total=cart.reduce((s,p)=>s+priceNumber(p.p)*p.qty,0);
+  return `Bonjour Maison Zale,\n\nJe souhaite commander :\n${lines.join("\n")}\n\nTotal produits : ${money(total)}\n\nNom : ${customer.name||"À préciser"}\nTéléphone : ${customer.phone||"À préciser"}\nVille : ${customer.city||"À préciser"}\nAdresse : ${customer.address||"À préciser"}\nMode de livraison : ${customer.delivery||"À préciser"}\n\nMerci.`;
+}
+function sendWhatsApp(customer={}){
+  if(!cart.length){toast("Votre panier est vide");return;}
+  const url=`https://wa.me/${phone}?text=${encodeURIComponent(orderText(customer))}`;
+  window.open(url,"_blank","noopener");
+}
+function openOrder(){
+  if(!cart.length){toast("Ajoutez au moins un produit");return;}
+  document.getElementById("orderModal")?.classList.add("open");
+  document.getElementById("drawerOverlay")?.classList.add("open");
+}
+function closeOrder(){
+  document.getElementById("orderModal")?.classList.remove("open");
+  document.getElementById("drawerOverlay")?.classList.remove("open");
 }
 
-
-
-// Désactiver le clic droit
-document.addEventListener("contextmenu", function (e) {
+function parseCSV(text){
+  const rows=[];let row=[],cell="",quoted=false;
+  for(let i=0;i<text.length;i++){
+    const ch=text[i],next=text[i+1];
+    if(ch==='"' && quoted && next==='"'){cell+='"';i++;continue;}
+    if(ch==='"'){quoted=!quoted;continue;}
+    if(ch===','&&!quoted){row.push(cell.trim());cell="";continue;}
+    if((ch==='\n'||ch==='\r')&&!quoted){if(ch==='\r'&&next==='\n')i++;row.push(cell.trim());if(row.some(Boolean))rows.push(row);row=[];cell="";continue;}
+    cell+=ch;
+  }
+  if(cell||row.length){row.push(cell.trim());rows.push(row);}
+  if(!rows.length)return [];
+  const headers=rows.shift().map(x=>x.toLowerCase());
+  return rows.map(r=>Object.fromEntries(headers.map((h,i)=>[h,r[i]||""]))).map(x=>({
+    n:x.n||x.nom||x.name,c:x.c||x.categorie||"unisexe",p:x.p||x.prix||"0",i:x.i||x.image||"",d:x.d||x.description||"",b:x.b||x.badge||"Sélection Zale"
+  })).filter(x=>x.n&&x.i);
+}
+async function loadGoogleSheets(){
+  if(!GOOGLE_SHEETS_CSV_URL)return;
+  try{
+    const res=await fetch(GOOGLE_SHEETS_CSV_URL,{cache:"no-store"});
+    if(!res.ok)throw new Error("Sheets inaccessible");
+    const data=parseCSV(await res.text());
+    if(data.length){catalog=data;renderHome();applyFilters();toast("Catalogue Google Sheets synchronisé");}
+  }catch(e){console.warn("Google Sheets:",e);}
+}
+function renderHome(){
+  const featured=document.getElementById("featuredProducts");
+  const newEl=document.getElementById("newProducts");
+  if(featured)featured.innerHTML=catalog.slice(0,8).map(productCard).join("");
+  if(newEl)newEl.innerHTML=catalog.slice(-8).map(productCard).join("");
+}
+function bind(){
+  document.getElementById("cartBtn")?.addEventListener("click",openCart);
+  document.getElementById("closeCart")?.addEventListener("click",closeCart);
+  document.getElementById("drawerOverlay")?.addEventListener("click",()=>{closeCart();closeOrder();});
+  document.getElementById("menuToggle")?.addEventListener("click",()=>document.getElementById("navBar")?.classList.toggle("open"));
+  document.getElementById("search")?.addEventListener("input",e=>{const target=document.getElementById("catalogSearch");if(target){target.value=e.target.value;applyFilters();document.getElementById("catalog")?.scrollIntoView({behavior:"smooth"});}});
+  document.addEventListener("click",e=>{
+    const add=e.target.closest("[data-add]"); if(add){const p=catalog.find(x=>x.n===add.dataset.add);if(p)addToCart(p);}
+    const fav=e.target.closest("[data-fav]"); if(fav)toggleFav(fav.dataset.fav);
+    const q=e.target.closest("[data-qty]"); if(q)changeQty(Number(q.dataset.qty),Number(q.dataset.delta));
+    const rem=e.target.closest("[data-remove]"); if(rem)removeItem(Number(rem.dataset.remove));
+    const chip=e.target.closest(".filter-chip"); if(chip){document.querySelectorAll(".filter-chip").forEach(x=>x.classList.remove("active"));chip.classList.add("active");applyFilters();}
+    const catLink=e.target.closest("[data-scroll-cat]"); if(catLink){e.preventDefault();document.getElementById("catalog")?.scrollIntoView({behavior:"smooth"});document.querySelector(`.filter-chip[data-cat="${catLink.dataset.scrollCat}"]`)?.click();}
+  });
+  document.getElementById("sortSelect")?.addEventListener("change",applyFilters);
+  document.getElementById("catalogSearch")?.addEventListener("input",applyFilters);
+  document.getElementById("orderBtn")?.addEventListener("click",openOrder);
+  document.getElementById("closeOrder")?.addEventListener("click",closeOrder);
+  document.getElementById("orderForm")?.addEventListener("submit",e=>{
     e.preventDefault();
-});
-
-// Bloquer uniquement les raccourcis liés aux DevTools
-document.addEventListener("keydown", function (e) {
-
-    // F12
-    if (e.key === "F12") {
-        e.preventDefault();
-        return false;
+    const data=Object.fromEntries(new FormData(e.target).entries());
+    sendWhatsApp(data);
+  });
+  document.getElementById("collaborationForm")?.addEventListener("submit",async e=>{
+    e.preventDefault();
+    const form=e.currentTarget;
+    const button=form.querySelector("button[type=submit]");
+    const original=button.innerHTML;
+    button.disabled=true;
+    button.innerHTML='<i class="fa-solid fa-spinner fa-spin"></i> Envoi en cours...';
+    try{
+      const response=await fetch(form.action,{
+        method:"POST",
+        body:new FormData(form),
+        headers:{"Accept":"application/json"}
+      });
+      if(!response.ok) throw new Error("send_failed");
+      toast("Votre demande de collaboration a bien été envoyée.");
+      form.reset();
+    }catch(error){
+      toast("Impossible d'envoyer le formulaire. Vérifiez votre connexion et réessayez.");
+    }finally{
+      button.disabled=false;
+      button.innerHTML=original;
     }
-
-    // Ctrl + Shift + I
-    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") {
-        e.preventDefault();
-        return false;
-    }
-
-    // Ctrl + Shift + J
-    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "j") {
-        e.preventDefault();
-        return false;
-    }
-
-    // Ctrl + Shift + C (inspecteur d'élément)
-    if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "c") {
-        e.preventDefault();
-        return false;
-    }
-
-    // Ctrl + U (afficher le code source)
-    if (e.ctrlKey && e.key.toLowerCase() === "u") {
-        e.preventDefault();
-        return false;
-    }
-
-});
+  });
+  document.getElementById("favBtn")?.addEventListener("click",()=>{
+    if(!favs.length){toast("Aucun favori pour le moment");return;}
+    document.querySelectorAll(".filter-chip").forEach(x=>x.classList.remove("active"));
+    document.querySelector('.filter-chip[data-cat="favoris"]')?.classList.add("active");
+    const list=catalog.filter(p=>favs.includes(p.n));renderProducts(list);
+    document.getElementById("catalog")?.scrollIntoView({behavior:"smooth"});
+  });
+  updateCounts();renderCart();renderHome();applyFilters();loadGoogleSheets();
+}
+document.addEventListener("DOMContentLoaded",bind);
