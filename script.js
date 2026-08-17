@@ -1,5 +1,5 @@
 const products = [
-  {n:"Oud pour classik", c:"unisexe", p:"25 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Oud"},
+  {n:"Oud pour classik", c:"unisexe", p:"30 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Oud"},
   {n:"Rose bleu Maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/laRoseBleu.jpeg", d:"Maison Massimo", b:"Floral"},
   {n:"Liquid brun", c:"unisexe", p:"25 000", i:"Prouduits/LiquideBrun.jpeg", d:"Liquid Brun", b:"Ambré"},
   {n:"Voyage de nuit", c:"unisexe", p:"75 000", i:"Prouduits/VoyageDeNuit.jpeg", d:"Maison Massimo", b:"Boisé"},
