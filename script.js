@@ -58,10 +58,10 @@ const products = [
 
     {
         n: "Cedrus Blanc",
-        c: "homme",
+        c: "unisexe",
         p: "40 000",
         i: "Prouduits/Cedrus_Blanc.jpeg",
-        d: "Parfum homme",
+        d: "Parfum unisexe",
         b: "Boisé"
     },
 
@@ -103,10 +103,10 @@ const products = [
 
     {
         n: "Oud Al Malick MAIZON ZALE",
-        c: "homme",
+        c: "unisexe",
         p: "18 000",
         i: "Prouduits/oud_AL_MALICK_MZ.jpeg",
-        d: "Parfum homme",
+        d: "Parfum unisexe",
         b: "Oud"
     },
 
@@ -130,7 +130,7 @@ const products = [
 
     {
         n: "Reef Pure Flower",
-        c: "femme",
+        c: "unisexe",
         p: "40 000",
         i: "Prouduits/reef_pure_flower.jpeg",
         d: "Parfum floral",
