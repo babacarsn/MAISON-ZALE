@@ -46,7 +46,105 @@ const products = [
   {n:"Bint Hooran Rose Passion", c:"femme", p:"15 000", i:"Prouduits/Bint_hooran_rose_passion.jpeg", d:"Parfum floral", b:"Floral"},
   {n:"Oud Embrosia Maison Manel", c:"unisexe", p:"25 000", i:"Prouduits/oud-ambrosia.jpg", d:"Oud", b:"Oud"},
   { n:"Musamam White Intense",c:"unisexe",p:"25 000",i:"Prouduits/Musaman_white_intense_latafa.jpeg",d:"Lattafa",b:"Boisé"},
-  {n:"Khamra Waha", c:"unisexe", p:"30 000", i:"Prouduits/Khamra_waha.jpeg", d:"Parfum unisexe", b:"Oriental"}
+  {n:"Khamra Waha", c:"unisexe", p:"30 000", i:"Prouduits/Khamra_waha.jpeg", d:"Parfum unisexe", b:"Oriental"},
+  {
+        n: "Al Fareed",
+        c: "unisexe",
+        p: "150 000",
+        i: "Prouduits/Al_fareed.jpeg",
+        d: "Parfum unisexe",
+        b: "Oriental"
+    },
+
+    {
+        n: "Cedrus Blanc",
+        c: "homme",
+        p: "40 000",
+        i: "Prouduits/Cedrus_Blanc.jpeg",
+        d: "Parfum homme",
+        b: "Boisé"
+    },
+
+    {
+        n: "Fayora",
+        c: "femme",
+        p: "20 000",
+        i: "Prouduits/Fayora.jpeg",
+        d: "Parfum femme",
+        b: "Floral"
+    },
+
+    {
+        n: "Haramain Amber Oud",
+        c: "unisexe",
+        p: "200 000",
+        i: "Prouduits/Haramain_amber_oud.jpeg",
+        d: "Parfum unisexe",
+        b: "Ambré"
+    },
+
+    {
+        n: "Island Vanilla Dunes",
+        c: "femme",
+        p: "25 000",
+        i: "Prouduits/island_vanilla_dunes.jpeg",
+        d: "Parfum femme",
+        b: "Vanillé"
+    },
+
+    {
+        n: "Lady Reef",
+        c: "femme",
+        p: "40 000",
+        i: "Prouduits/lady_reef.jpeg",
+        d: "Parfum femme",
+        b: "Floral"
+    },
+
+    {
+        n: "Oud Al Malick MAIZON ZALE",
+        c: "homme",
+        p: "18 000",
+        i: "Prouduits/oud_AL_MALICK_MZ.jpeg",
+        d: "Parfum homme",
+        b: "Oud"
+    },
+
+    {
+        n: "Peachy",
+        c: "femme",
+        p: "25 000",
+        i: "Prouduits/Peachy.jpeg",
+        d: "Parfum femme",
+        b: "Fruité"
+    },
+
+    {
+        n: "Reef 33",
+        c: "unisexe",
+        p: "40 000",
+        i: "Prouduits/Reef_33.jpeg",
+        d: "Parfum unisexe",
+        b: "Aromatique"
+    },
+
+    {
+        n: "Reef Pure Flower",
+        c: "femme",
+        p: "40 000",
+        i: "Prouduits/reef_pure_flower.jpeg",
+        d: "Parfum floral",
+        b: "Floral"
+    },
+
+    {
+        n: "Reef Pure Musk",
+        c: "unisexe",
+        p: "40 000",
+        i: "Prouduits/reef_pure_musk.jpeg",
+        d: "Parfum musqué",
+        b: "Musc"
+    }
 ];
 const phone = "221710474235";
 
