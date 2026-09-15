@@ -151,12 +151,12 @@ const products = [
 {n:"Blu Oud", c:"femme", p:"25 000", i:"Prouduits/Blu_oud.jpeg", d:"Parfum femme", b:"Oud"},
 {n:"Supremacy", c:"homme", p:"45 000", i:"Prouduits/Supremacy.jpeg", d:"Parfum homme", b:"Boisé"},
 {n:"Ateeq", c:"homme", p:"30 000", i:"Prouduits/Ateeq.jpeg", d:"Parfum homme", b:"Oriental"},
-{n:"Dusky Vanilla", c:"unisexe", p:"20 000", i:"Prouduits/Dusky_Vanilla.jpeg", d:"Parfum unisexe", b:"Vanillé"},
+{n:"Dusky Vanilla", c:"unisexe", p:"20 000", i:"Prouduits/Dusky_vanilla.jpeg", d:"Parfum unisexe", b:"Vanillé"},
 {n:"Cedrus Blanc", c:"femme", p:"40 000", i:"Prouduits/Cedrus_Blanc.jpeg", d:"Parfum femme", b:"Boisé"},
 {n:"Nava Sol", c:"unisexe", p:"40 000", i:"Prouduits/Nava_sol .jpeg", d:"Parfum unisexe", b:"Floral"},
 {n:"Praise", c:"unisexe", p:"20 000", i:"Prouduits/Praise.jpeg", d:"Parfum unisexe", b:"Oriental"},
 {n:"Brooch", c:"femme", p:"25 000", i:"Prouduits/Brooch.jpeg", d:"Parfum femme", b:"Floral"},
-{n:"Molten Caramel", c:"femme", p:"15 000", i:"Prouduits/Molten_Caramel.jpeg", d:"Parfum femme", b:"Gourmand"}
+{n:"Molten Caramel", c:"femme", p:"15 000", i:"Prouduits/Molten_caramel.jpeg", d:"Parfum femme", b:"Gourmand"}
 ];
 const phone = "221710474235";
 
