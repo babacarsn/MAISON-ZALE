@@ -68,7 +68,7 @@ const products = [
     {
         n: "Fayora",
         c: "femme",
-        p: "20 000",
+        p: "25 000",
         i: "Prouduits/Fayora.jpeg",
         d: "Parfum femme",
         b: "Floral"
@@ -144,7 +144,19 @@ const products = [
         i: "Prouduits/reef_pure_musk.jpeg",
         d: "Parfum musqué",
         b: "Musc"
-    }
+    },
+    {n:"Tif Tif", c:"unisexe", p:"25 000", i:"Prouduits/tif_tif.jpeg", d:"Parfum unisexe", b:"Oriental"},
+{n:"Musaman", c:"unisexe", p:"25 000", i:"Prouduits/Musaman.jpeg", d:"Parfum unisexe", b:"Boisé"},
+{n:"Rose Noir", c:"femme", p:"30 000", i:"Prouduits/Rose_noir.jpeg", d:"Parfum femme", b:"Floral"},
+{n:"Blu Oud", c:"femme", p:"25 000", i:"Prouduits/Blu_oud.jpeg", d:"Parfum femme", b:"Oud"},
+{n:"Supremacy", c:"homme", p:"45 000", i:"Prouduits/Supremacy.jpeg", d:"Parfum homme", b:"Boisé"},
+{n:"Ateeq", c:"homme", p:"30 000", i:"Prouduits/Ateeq.jpeg", d:"Parfum homme", b:"Oriental"},
+{n:"Dusky Vanilla", c:"unisexe", p:"20 000", i:"Prouduits/Dusky_Vanilla.jpeg", d:"Parfum unisexe", b:"Vanillé"},
+{n:"Cedrus Blanc", c:"femme", p:"40 000", i:"Prouduits/Cedrus_Blanc.jpeg", d:"Parfum femme", b:"Boisé"},
+{n:"Nava Sol", c:"unisexe", p:"40 000", i:"Prouduits/Nava_sol .jpeg", d:"Parfum unisexe", b:"Floral"},
+{n:"Praise", c:"unisexe", p:"20 000", i:"Prouduits/Praise.jpeg", d:"Parfum unisexe", b:"Oriental"},
+{n:"Brooch", c:"femme", p:"25 000", i:"Prouduits/Brooch.jpeg", d:"Parfum femme", b:"Floral"},
+{n:"Molten Caramel", c:"femme", p:"15 000", i:"Prouduits/Molten_Caramel.jpeg", d:"Parfum femme", b:"Gourmand"}
 ];
 const phone = "221710474235";
 
@@ -155,6 +167,7 @@ const phone = "221710474235";
     dans GOOGLE_SHEETS_CSV_URL. Les colonnes recommandées sont:
     n,c,p,i,d,b
 */
+
 const GOOGLE_SHEETS_CSV_URL = "";
 const catLabel = {femme:"Pour Elle", homme:"Pour Lui", unisexe:"Unisexe"};
 
