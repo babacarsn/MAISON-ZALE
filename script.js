@@ -31,7 +31,7 @@ const products = [
   {n:"Iris gourmand", c:"unisexe", p:"90 000", i:"Prouduits/Iris_gourmand.jpeg", d:"Gourmand", b:"Gourmand"},
   {n:"Collection Meissa 50ml", c:"unisexe", p:"25 000", i:"Prouduits/Collection _Meissa.jpeg", d:"Fruité", b:"Fruité"},
   {n:"Oud sable", c:"unisexe", p:"90 000", i:"Prouduits/Oud_sable.jpeg", d:"Boisé", b:"Oud"},
-  {n:"Vanille voyage", c:"femme", p:"25 000", i:"Prouduits/Vanille_voyage.jpeg", d:"Vanillé", b:"Vanillé"},
+  {n:"Vanille voyage", c:"femme", p:"30 000", i:"Prouduits/Vanille_voyage.jpeg", d:"Vanillé", b:"Vanillé"},
   {n:"Vulcan feu", c:"unisexe", p:"30 000", i:"Prouduits/Vulcan_feu.jpg", d:"Epicé", b:"Épicé"},
   {n:"Taskem caramel cascade", c:"unisexe", p:"15 000", i:"Prouduits/Taskem_caramel_cascade .jpg", d:"Caramel", b:"Gourmand"},
   {n:"Oud and rose", c:"unisexe", p:"32 500", i:"Prouduits/OUD_&_ROSES.jpg", d:"Floral", b:"Oud & Rose"},
