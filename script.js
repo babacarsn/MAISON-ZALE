@@ -139,7 +139,7 @@ const products = [
         b: "Musc"
     },
     {n:"Tif Tif", c:"unisexe", p:"25 000", i:"Prouduits/tif_tif.jpeg", d:"Parfum unisexe", b:"Oriental"},
-{n:"Musaman", c:"unisexe", p:"25 000", i:"Prouduits/Musaman.jpeg", d:"Parfum unisexe", b:"Boisé"},
+{n:"Musaman", c:"unisexe", p:"30 000", i:"Prouduits/Musaman.jpeg", d:"Parfum unisexe", b:"Boisé"},
 {n:"Rose Noir", c:"femme", p:"30 000", i:"Prouduits/Rose_noir.jpeg", d:"Parfum femme", b:"Floral"},
 {n:"Blu Oud", c:"femme", p:"25 000", i:"Prouduits/Blu_oud.jpeg", d:"Parfum femme", b:"Oud"},
 {n:"Supremacy", c:"homme", p:"45 000", i:"Prouduits/Supremacy.jpeg", d:"Parfum homme", b:"Boisé"},
