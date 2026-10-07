@@ -1,7 +1,7 @@
 const products = [
   {n:"Oud pour classik", c:"unisexe", p:"30 000", i:"Prouduits/oudPourKlassik.jpeg", d:"Classik Paris", b:"Oud"},
   {n:"Rose bleu Maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/laRoseBleu.jpeg", d:"Maison Massimo", b:"Floral"},
-  {n:"Liquid brun", c:"unisexe", p:"25 000", i:"Prouduits/LiquideBrun.jpeg", d:"Liquid Brun", b:"Ambré"},
+  {n:"Liquid brun", c:"unisexe", p:"30 000", i:"Prouduits/LiquideBrun.jpeg", d:"Liquid Brun", b:"Ambré"},
   {n:"Voyage de nuit", c:"unisexe", p:"75 000", i:"Prouduits/VoyageDeNuit.jpeg", d:"Maison Massimo", b:"Boisé"},
   {n:"Royal oak maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Royal_oak_maison_massimo .jpeg", d:"Maison Massimo", b:"Boisé"},
   {n:"Oud Madawi", c:"unisexe", p:"150 000", i:"Prouduits/oudMadawi.jpeg", d:"Arabian Oud", b:"Oud"},
@@ -45,7 +45,7 @@ const products = [
   {n:"Intense Infusion", c:"unisexe", p:"15 000", i:"Prouduits/Intense_infusion.jpeg", d:"Parfum unisexe", b:"Aromatique"},
   {n:"Bint Hooran Rose Passion", c:"femme", p:"15 000", i:"Prouduits/Bint_hooran_rose_passion.jpeg", d:"Parfum floral", b:"Floral"},
   {n:"Oud Embrosia Maison Manel", c:"unisexe", p:"25 000", i:"Prouduits/oud-ambrosia.jpg", d:"Oud", b:"Oud"},
-  { n:"Musamam White Intense",c:"unisexe",p:"25 000",i:"Prouduits/Musaman_white_intense_latafa.jpeg",d:"Lattafa",b:"Boisé"},
+  { n:"Musamam White Intense",c:"unisexe",p:"30 000",i:"Prouduits/Musaman_white_intense_latafa.jpeg",d:"Lattafa",b:"Boisé"},
   {n:"Khamra Waha", c:"unisexe", p:"30 000", i:"Prouduits/Khamra_waha.jpeg", d:"Parfum unisexe", b:"Oriental"},
   {
         n: "Al Fareed",
