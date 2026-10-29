@@ -6,7 +6,7 @@ const products = [
   {n:"Royal oak maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Royal_oak_maison_massimo .jpeg", d:"Maison Massimo", b:"Boisé"},
   {n:"Oud Madawi", c:"unisexe", p:"150 000", i:"Prouduits/oudMadawi.jpeg", d:"Arabian Oud", b:"Oud"},
   {n:"Coeur blanc maison massimo", c:"unisexe", p:"75 000", i:"Prouduits/Coeur_blanc_maison_massimo .jpeg", d:"Maison Massimo", b:"Floral"},
-  {n:"Exotic", c:"unisexe", p:"16 000", i:"Prouduits/Exotic.jpeg", d:"Exotic Perfumes", b:"Exotique"},
+  {n:"Exotic", c:"unisexe", p:"18 000", i:"Prouduits/Exotic.jpeg", d:"Exotic Perfumes", b:"Exotique"},
   {n:"Taraf arabian oud", c:"unisexe", p:"150 000", i:"Prouduits/tarafArabianOud.jpeg", d:"Arabian Oud", b:"Oud"},
   {n:"Africain gold", c:"unisexe", p:"90 000", i:"Prouduits/Africain_gold.jpeg", d:"Audacieux", b:"Boisé"},
   {n:"Suculent caramel", c:"unisexe", p:"25 000", i:"Prouduits/Suculent_caramel.jpeg", d:"Suculent", b:"Gourmand"},
